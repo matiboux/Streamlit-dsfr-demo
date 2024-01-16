@@ -1,0 +1,73 @@
+# Documentation:
+# https://docs.streamlit.io/library/advanced-features/configuration
+
+# https://docs.streamlit.io/library/advanced-features/configuration#global
+[global]
+# disableWatchdogWarning = false
+# disableWidgetStateDuplicationWarning = false
+# showWarningOnDirectExecution = true
+
+# https://docs.streamlit.io/library/advanced-features/configuration#logger
+[logger]
+# level = "info"
+# messageFormat = "%(asctime)s %(message)s"
+
+# https://docs.streamlit.io/library/advanced-features/configuration#client
+[client]
+# caching = true
+# displayEnabled = true
+# showErrorDetails = true
+# toolbarMode = "auto"
+
+# https://docs.streamlit.io/library/advanced-features/configuration#runner
+[runner]
+# magicEnabled = true
+# installTracer = false
+# fixMatplotlib = true
+# postScriptGC = true
+# fastReruns = true
+# enforceSerializableSessionState = false
+
+
+# https://docs.streamlit.io/library/advanced-features/configuration#server
+[server]
+# folderWatchBlacklist = []
+# fileWatcherType = "auto"
+# cookieSecret = "a-random-key-appears-here"
+# headless = false
+# runOnSave = false
+# address =
+port = 80
+# baseUrlPath = ""
+# enableCORS = true
+# enableXsrfProtection = true
+# maxUploadSize = 200
+# maxMessageSize = 200
+# enableWebsocketCompression = false
+# enableStaticServing = false
+# sslCertFile =
+# sslKeyFile =
+
+# https://docs.streamlit.io/library/advanced-features/configuration#browser
+[browser]
+# serverAddress = "localhost"
+# gatherUsageStats = true
+# serverPort = 80
+
+# https://docs.streamlit.io/library/advanced-features/configuration#mapbox
+[mapbox]
+# token = ""
+
+# https://docs.streamlit.io/library/advanced-features/configuration#deprecation
+[deprecation]
+# showfileUploaderEncoding = true
+# showPyplotGlobalUse = true
+
+# https://docs.streamlit.io/library/advanced-features/configuration#theme
+[theme]
+base = "light"
+# primaryColor =
+# backgroundColor =
+# secondaryBackgroundColor =
+# textColor =
+# font =
