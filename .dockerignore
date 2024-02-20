@@ -37,3 +37,9 @@
 **/.gitattributes
 **/.gitignore
 **/.gitmodules
+
+# GitHub configuration files
+**/.github/
+
+# Kubernetes configuration files
+**/kube/

@@ -1,1 +1,1 @@
-streamlit-dsfr == 0.0.1
+streamlit-dsfr == 0.0.12
