@@ -40,4 +40,4 @@ ENV PORT=${PORT}
 # Expose port
 EXPOSE ${PORT}
 
-CMD [ "sh", "-c", "streamlit run app.py --server.port ${PORT}" ]
+CMD [ "sh", "-c", "streamlit run app.py --server.port ${PORT:-80}" ]
